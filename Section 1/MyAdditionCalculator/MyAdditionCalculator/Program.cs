@@ -12,3 +12,15 @@ string? userInput = Console.ReadLine();
 // Prints the user input to the console.
 Console.WriteLine("You entered " + userInput);
 Console.ReadKey();
+
+
+// Takes the user input and stores it in a variable.
+// Variable name: userInput, Variable type: string
+// Srting is a data type that represents text.
+Console.WriteLine("Enter a value: ");
+string? userInput = Console.ReadLine();
+
+// Prints the user input to the console.
+Console.WriteLine("You entered " + userInput);
+Console.ReadKey();
+
