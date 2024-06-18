@@ -1,26 +1,30 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+Console.WriteLine("Simple Addition Calculator");
+Console.WriteLine("--------------------------");
 
-// Print "Hello, World!" to the console in C#.
-Console.WriteLine("Hello, World!");
+// Text to prompt the user to enter the first number
+Console.WriteLine("Enter the first number: ");
 
-// Takes the user input and stores it in a variable.
-// Variable name: userInput, Variable type: string
-// Srting is a data type that represents text.
-Console.WriteLine("Enter a value: ");
-string? userInput = Console.ReadLine();
+// Read the user input and store it in a variable
+string userInput = Console.ReadLine();
 
-// Prints the user input to the console.
-Console.WriteLine("You entered " + userInput);
+// Convert the user input to an integer
+int firstNumber = int.Parse(userInput);
+
+// Text to prompt the user to enter the second number
+Console.WriteLine("Enter the second number: ");
+
+// Read the user input and store it in a variable
+userInput = Console.ReadLine();
+
+// Convert the user input to an integer
+int secondNumber = int.Parse(userInput);
+
+// Calculate the sum of the two numbers
+int sum = firstNumber + secondNumber;
+
+// Display the sum to the user
+Console.WriteLine("The sum of " + firstNumber + " and " + secondNumber + " is: " + sum);
+
+// Wait for the user to press a key before closing the console window
 Console.ReadKey();
-
-
-// Takes the user input and stores it in a variable.
-// Variable name: userInput, Variable type: string
-// Srting is a data type that represents text.
-Console.WriteLine("Enter a value: ");
-string? userInput = Console.ReadLine();
-
-// Prints the user input to the console.
-Console.WriteLine("You entered " + userInput);
-Console.ReadKey();
-
